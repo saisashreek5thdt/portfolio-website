@@ -1,0 +1,128 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+
+body{
+    background-color: #ffffff !important;
+    overflow-x: hidden;
+}
+
+.services {
+    padding: 8rem;
+    margin: 5rem;
+}
+
+.team-img {
+    width: 14rem !important;
+    height: auto;
+    margin: 0;
+    align-items: center;
+    object-fit: contain;
+}
+.brand-img{
+    width: auto !important;
+    height:90% !important;
+    margin: 0;
+    object-fit: contain;
+}
+.slider_center_image{
+    height:500px !important;
+  }
+  @media only screen and (min-width: 1910px) {
+    .slider_center_image{
+        height:640px !important;
+      }
+  }
+
+  @media only screen and (max-width: 1110px) {
+    .slider_center_image{
+        height:300px !important;
+      }
+      .service_text::before{
+        font-size:17px !important;
+        color:black !important;
+        font-weight: 600;
+        margin:41px;
+    }
+  }
+.jelly_card{
+
+  /* box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23); */
+  height:100% !important;
+  transition: 2s;
+  overflow:hidden;
+
+}
+
+
+.jelly_card:hover{
+    transform: scale(1.05);
+    box-shadow:none;
+    transition: 1s;
+    overflow:hidden;
+    padding:4% ;
+    border-radius:92% 53% 40% 65% / 33% 53% 15% 53% ;
+
+}
+
+@keyframes example {
+      animation-name: example;
+  animation-duration:  5s;
+  animation-iteration-count:infinite;
+    from {   border-radius:92% 53% 40% 65% / 33% 53% 15% 53% ;}
+    to {}
+  }
+.service_text{
+    font-size:57px !important;
+    color:black !important;
+    font-weight: 600;
+    margin:40px;
+    text-shadow: 0px 3px 0px #b2a98f,
+    0px 14px 10px rgba(0,0,0,0.15),
+    0px 24px 2px rgba(0,0,0,0.1),
+    0px 34px 30px rgba(0,0,0,0.1);
+}
+.service_text::before {
+    content: "Education";
+    animation: animate infinite 31s;
+     
+}
+
+@keyframes animate {
+
+    0% {
+        content: "Hospitality";
+    }
+
+    25% {
+        content: "Application Development";
+    }
+    50% {
+        content: "2D Animation";
+    }
+    75% {
+        content: "UI & UX";
+    }
+}
+
+.service-card:hover{
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22) !important;
+    border:1px solid rgba(122, 122, 122, 0.3) !important;
+}
+
+.banner-img{
+    width:100% !important;
+    height:600px !important;
+}
+.service-content{
+    background: #292C6D;
+}

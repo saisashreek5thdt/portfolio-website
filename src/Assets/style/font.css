@@ -1,0 +1,84 @@
+
+  .what_we_do_head{
+    font-size:110px  !important;
+    font-weight: normal;
+    color:#000 !important;
+  
+  }
+  .what_we_do_para{
+    font-size:20px  !important;
+    font-weight: normal;
+    margin:20px !important;
+    text-align: justify;
+    color:#000 !important;
+  
+  }
+  
+  .service_item_head{
+    font-size:35px  !important;
+    font-weight: normal;
+    color:#000 !important;
+  
+  }
+  .service_item_para{
+    font-size:16px  !important;
+    font-weight: normal;
+    margin:5px !important;
+    text-align: justify;
+    color:#000 !important;
+  
+  }
+
+  .card_head{
+    font-size:35px  !important;
+    font-weight: semibold;
+    color:#000 !important;
+  }
+
+  .card_sub_head{
+    font-size:18px  !important;
+    font-weight: normal;
+    font-weight: 600;
+    color:#000 !important;
+  }
+
+  .card_para{
+    font-size:14px  !important;
+    font-weight: normal;
+    text-align: justify !important;
+    color:#000 !important;
+  }
+
+
+  .footer_head{
+    font-size:23px  !important;
+    font-weight: semibold;
+  }
+
+  .footer_sub_head{
+    font-size:17px  !important;
+    font-weight: normal;
+    font-weight: 600;
+  }
+
+  .footer_para{
+    font-size:14px  !important;
+    font-weight: normal;
+  }
+
+  .footer_link{
+    font-size:14px  !important;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .footer_link:hover{
+    font-size:14px  !important;
+    font-weight: 600;
+    color:#1F1D36 !important
+  }
+  .service-para{
+    color:white !important;
+    text-align: justify !important;
+    font-size:18px !important;
+  }
